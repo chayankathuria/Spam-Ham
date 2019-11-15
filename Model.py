@@ -13,3 +13,6 @@ y_pred_class = clf.predict(X_test_dtm)
 
 # Predict probability
 y_pred_prob_clf = clf.predict_proba(X_test_dtm)
+
+# This is not testing the model. It is just checking how the model peroforms on unseen data. 
+# Testing is checking its accuracy and other metric which is added in the next file.
