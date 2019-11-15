@@ -17,3 +17,5 @@ X_train_dtm
 # transform testing data (using fitted vocabulary) into a document-term matrix
 X_test_dtm = vect.transform(X_test)
 X_test_dtm
+
+# Now the vectorizer will have generated a sparse matrix of 1s and 0s for all the documents
